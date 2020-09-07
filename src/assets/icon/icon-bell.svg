@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="23" height="24" viewBox="0 0 23 24">
+  <defs>
+    <clipPath id="clip-icon-bell">
+      <rect width="23" height="24"/>
+    </clipPath>
+  </defs>
+  <g id="icon-bell" clip-path="url(#clip-icon-bell)">
+    <g id="bell" transform="translate(-46.445 -4.343) rotate(-9)">
+      <g id="Group_3" data-name="Group 3" transform="translate(42.657 13.717)">
+        <g id="Group_2" data-name="Group 2">
+          <path id="Path_1" data-name="Path 1" d="M64.373,92.911,62.5,89.792a9.27,9.27,0,0,1-1.32-4.766V82.294a7.627,7.627,0,1,0-15.255,0v2.732a9.27,9.27,0,0,1-1.32,4.766l-1.872,3.119a.544.544,0,0,0,.467.825h20.7a.544.544,0,0,0,.468-.825Zm-20.208-.265,1.376-2.294a10.35,10.35,0,0,0,1.475-5.326V82.294a6.538,6.538,0,1,1,13.076,0v2.732a10.359,10.359,0,0,0,1.474,5.326l1.377,2.294Z" transform="translate(-42.657 -74.667)" stroke="#000" stroke-width="0.8"/>
+        </g>
+      </g>
+      <g id="Group_7" data-name="Group 7" transform="translate(50.83 31.697)">
+        <g id="Group_6" data-name="Group 6">
+          <path id="Path_3" data-name="Path 3" d="M207.748,426.948a.545.545,0,1,0-.941.551,1.634,1.634,0,1,1-2.831,0,.546.546,0,1,0-.941-.551,2.725,2.725,0,1,0,4.714,0Z" transform="translate(-202.666 -426.68)" stroke="#000" stroke-width="0.8"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

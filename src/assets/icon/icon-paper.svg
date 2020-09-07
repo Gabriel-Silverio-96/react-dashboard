@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="39" height="42" viewBox="0 0 39 42">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_17" data-name="Rectangle 17" width="43" height="43"/>
+    </clipPath>
+    <clipPath id="clip-icon-paper">
+      <rect width="39" height="42"/>
+    </clipPath>
+  </defs>
+  <g id="icon-paper" clip-path="url(#clip-icon-paper)">
+    <g id="papel" transform="translate(-2)" clip-path="url(#clip-path)">
+      <g id="Group_40" data-name="Group 40" transform="translate(5.239 2.621)">
+        <rect id="Rectangle_87" data-name="Rectangle 87" width="32.454" height="37.693" rx="6" transform="translate(0)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="3"/>
+        <g id="Group_39" data-name="Group 39" transform="translate(7.528 11.453)">
+          <line id="Line_3" data-name="Line 3" x2="17.397" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
+          <line id="Line_4" data-name="Line 4" x2="17.397" transform="translate(0 7.684)" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
+          <line id="Line_5" data-name="Line 5" x2="11.805" transform="translate(0 14.787)" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="120" height="41" viewBox="0 0 120 41">
+  <defs>
+    <clipPath id="clip-logo-desk">
+      <rect width="120" height="41"/>
+    </clipPath>
+  </defs>
+  <g id="logo-desk" clip-path="url(#clip-logo-desk)">
+    <g id="Group_22" data-name="Group 22" transform="translate(-181.25 -431.412)">
+      <text id="desk" transform="translate(228.547 461.804)" font-size="33" font-family="BioSans-Bold, Bio Sans" font-weight="700"><tspan x="0" y="0">desk</tspan></text>
+      <g id="Group_20" data-name="Group 20" transform="translate(181.25 436.147)">
+        <path id="Path_14" data-name="Path 14" d="M200.4,441.584H183.832a2.582,2.582,0,1,0,0,5.165H200.4a2.582,2.582,0,1,0,0-5.165Z" transform="translate(-181.25 -441.584)" fill="#381dff"/>
+        <path id="Path_15" data-name="Path 15" d="M200.4,476.755H183.832a2.582,2.582,0,1,0,0,5.165H200.4a2.582,2.582,0,1,0,0-5.165Z" transform="translate(-181.25 -457.817)" fill="#381dff"/>
+        <path id="Path_16" data-name="Path 16" d="M188.719,459.336h-4.887a2.582,2.582,0,1,0,0,5.165h4.887a2.582,2.582,0,1,0,0-5.165Z" transform="translate(-181.25 -449.777)" fill="#381dff"/>
+        <path id="Path_17" data-name="Path 17" d="M224.629,459.336H213.707a2.582,2.582,0,1,0,0,5.165h10.922a2.582,2.582,0,0,0,0-5.165Z" transform="translate(-195.038 -449.777)" fill="#381dff"/>
+        <path id="Path_18" data-name="Path 18" d="M208.975,494.628H183.832a2.582,2.582,0,1,0,0,5.165h25.143a2.582,2.582,0,0,0,0-5.165Z" transform="translate(-181.25 -466.066)" fill="#381dff"/>
+      </g>
+    </g>
+  </g>
+</svg>
