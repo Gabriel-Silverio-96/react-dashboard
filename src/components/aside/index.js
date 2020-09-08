@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 import { MenuLateral, List } from '../../styled/main';
 import AsideBanner from '../../components/asideBanner';
 
@@ -9,12 +11,12 @@ function aside() {
         <MenuLateral>
             <img src={LogoDesk} alt="Logo desk"></img>           
             <List>
-               <a href="">
+               <Link to="/">
                     <li>Home</li>
-               </a>
-               <a href="">
+               </Link>
+               <Link to="/usuarios">
                     <li>Usuários</li>
-               </a>
+               </Link>
                <a href="">
                     <li>Posts</li>    
                </a>

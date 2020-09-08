@@ -1,10 +1,25 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Index from './pages/index';
+
+import Aside from './components/aside/index';
+import Header from './components/header';
+
+//Pages
+import Index from './pages/index/index';
+import User from './pages/user/user';
+import Edit from './pages/edit/edit';
+
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <Index />
-  </React.StrictMode>,
+  <BrowserRouter>
+    <Header />
+    <Aside />
+    <Switch>
+      <Route path="/" exact={true} component={Index} />
+      <Route path="/usuarios" component={User} />
+      <Route path="/editar/:id" component={Edit} />
+    </Switch>
+  </BrowserRouter>, 
   document.getElementById('root')
 );

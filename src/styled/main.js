@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Title = styled.h1`    
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
 `
 
 export const TitleSpan = styled.h1`    
@@ -42,6 +42,7 @@ export const Box = styled.div`
     border: 1px solid #000;    
     border-radius: 25px;
     margin-top: ${props => props.marginTop + 'px'}; 
+    margin-right: ${props => props.marginRight + 'px'}; 
     margin-bottom: ${props => props.marginBottom + 'px'}; 
     width: ${props => props.boxWidth + 'px'};
     text-align: ${props => props.textAlign};
@@ -54,8 +55,8 @@ export const Box = styled.div`
     }
 
     img {
-        margin: 0px 0 30px;
-        width: 35px;        
+        margin-bottom: ${props => props.marginBottomImg + 'px'};
+        width: ${props => props.widthImg + 'px'};        
     }
 
     p {
@@ -75,18 +76,17 @@ export const Box = styled.div`
     h3 {
         font-family: 'Roboto', sans-serif;
         font-weight: bold; 
-        font-size: 25px;        
-        margin-top: 10px;        
+        font-size: 25px;                      
     }
 `
 
-export const BoxArea = styled.div `
+export const BoxArea = styled.div`
     display: flex; 
     justify-content: space-between;
     margin-bottom: ${props => props.marginBottom + 'px'};
 `
 
-export const ButtonPrime = styled.button `
+export const ButtonPrime = styled.button`
     color: ${props => props.colorButton};
     background-color: ${props => props.backgroundButton};
     margin-top: ${props => props.marginTop + 'px'};
@@ -95,4 +95,48 @@ export const ButtonPrime = styled.button `
     border-radius: 13px;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
+`
+
+//Main page
+export const Main = styled.main`    
+    width: 80%;
+    margin-left: auto;
+    padding: 0 25px;
+`
+
+//Table
+
+export const Table = styled.table`
+    overflow-x: auto;
+    display: contents;
+    margin-bottom: ${props => props.marginBottomTable + "px"};
+
+    thead tr th{
+        font-weight: bold;
+    }
+
+    th, td {
+        padding: 15px;
+        text-align: left;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+    }
+
+    tr:nth-child(even) {
+        background-color: #F8F8F8;
+    }
+
+    tr td {
+        :first-child {
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;        
+                    
+        }
+
+        :last-child {
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;        
+        }
+    }
 `
