@@ -17,8 +17,7 @@ export default class userList extends React.Component {
     }
 
     render() {
-        const list = this.state.data;
-        console.log(Object.keys(list))
+        const list = this.state.data;        
         return (
             <Main>
                 <Title>Total de usuários</Title>

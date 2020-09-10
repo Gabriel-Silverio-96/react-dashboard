@@ -18,7 +18,7 @@ ReactDOM.render(
     <Switch>
       <Route path="/" exact={true} component={Index} />
       <Route path="/usuarios" component={User} />
-      <Route path="/editar/:id" component={Edit} />
+      <Route path="/editar/:id"  component={Edit} />
     </Switch>
   </BrowserRouter>, 
   document.getElementById('root')

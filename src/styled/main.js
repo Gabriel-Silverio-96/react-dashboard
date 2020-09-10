@@ -97,6 +97,12 @@ export const ButtonPrime = styled.button`
     font-weight: 400;
 `
 
+export const ButtonSave = styled(ButtonPrime)`
+    margin-left: auto;
+    display: block;
+    cursor: pointer;
+`
+
 //Main page
 export const Main = styled.main`    
     width: 80%;
@@ -105,7 +111,6 @@ export const Main = styled.main`
 `
 
 //Table
-
 export const Table = styled.table`
     overflow-x: auto;
     display: contents;
