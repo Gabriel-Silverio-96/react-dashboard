@@ -8,7 +8,7 @@ import { FormCol, InputArea } from './styled';
 import Modal from '../../components/modal/modal';
 
 //API global url
-import instance from '../../services/api';
+import instance from '../../services/apiUser';
 
 export default class edit extends React.Component {
     state = {
@@ -24,13 +24,20 @@ export default class edit extends React.Component {
         })
     }
 
+    //Open modal
+    handleClick(e) {
+        e.preventDefault();
+        const modalMain = document.getElementById('modalMain');
+        modalMain.style.display = "flex";                     
+    }
+
     render() {
         const userData = this.state.data;     
         console.log(Object.keys(userData))           
         
         return (
             <Main>
-                {/* <Modal/> */}
+                <Modal/> 
                 <Title>Editar informações</Title>
                 <form>
                     <FormCol>
@@ -101,7 +108,7 @@ export default class edit extends React.Component {
                         </InputArea>                     
                     </FormCol>
 
-                    <ButtonSave colorButton={"#fff"} backgroundButton={"#1C1CDE"}>
+                    <ButtonSave onClick={this.handleClick} colorButton={"#fff"} backgroundButton={"#1C1CDE"}>
                         Salvar
                     </ButtonSave>
                 </form>

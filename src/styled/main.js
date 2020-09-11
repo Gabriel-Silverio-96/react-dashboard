@@ -70,13 +70,15 @@ export const Box = styled.div`
         font-weight: bold; 
         font-size: 45px;
         letter-spacing: -2px;
-        margin-top: 10px;        
+        margin-top: 10px;   
+        color: #000;     
     }
 
     h3 {
         font-family: 'Roboto', sans-serif;
         font-weight: bold; 
-        font-size: 25px;                      
+        font-size: 25px; 
+        color: #000;                          
     }
 `
 
@@ -95,6 +97,11 @@ export const ButtonPrime = styled.button`
     border-radius: 13px;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
+    cursor: pointer;
+    
+    :focus {
+        outline: none;
+    }
 `
 
 export const ButtonSave = styled(ButtonPrime)`
@@ -143,5 +150,27 @@ export const Table = styled.table`
             border-top-right-radius: 10px;
             border-bottom-right-radius: 10px;        
         }
+    }
+`
+
+export const BtnClose = styled.button`
+    font-size: 15px;   
+    font-weight: bold;
+    border: 2px solid #1C1CDE;
+    border-radius: 50%;
+    padding: 5px 9px;
+    color: #1C1CDE;
+    background-color: #fff;   
+    transition: 0.5s;
+    cursor: pointer;
+
+    :hover {
+        background-color: #1C1CDE;
+        color: #fff;
+        transition: 0.5s;        
+    } 
+
+    :focus {
+        outline: none;
     }
 `

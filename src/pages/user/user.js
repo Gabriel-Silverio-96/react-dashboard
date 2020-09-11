@@ -1,9 +1,12 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
+//Styled
 import { Main, Title, Table } from '../../styled/main';
 import { ButtonEdit } from './styled';
 
-import instance from '../../services/api';
+//API global url
+import instance from '../../services/apiUser';
 export default class userList extends React.Component {
     state = {
         data: []
@@ -45,11 +48,11 @@ export default class userList extends React.Component {
                             <td>{value.address.city}</td>
                             <td>{value.address.zipcode}</td>
                             <td>
-                                <a href={"/editar/" + value.id}>
+                                <Link to={"/editar/" + value.id}>
                                     <ButtonEdit colorButton={"#1C1CDE"} backgroundButton={"#E3E3FF"}>
                                         Editar
                                     </ButtonEdit>
-                                </a>
+                                </Link>
                             </td>
                         </tr>
                     )}

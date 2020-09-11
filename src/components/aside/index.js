@@ -17,7 +17,7 @@ function aside() {
                <Link to="/usuarios">
                     <li>Usuários</li>
                </Link>
-               <a href="">
+               <a href="/post">
                     <li>Posts</li>    
                </a>
             </List>

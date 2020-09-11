@@ -11,6 +11,7 @@ export const ModalMain  = styled.div `
     bottom: 0;   
     display: flex;
     z-index: 20;
+    display: none;
 `
 
 export const ModalContent = styled.div `    
@@ -18,12 +19,33 @@ export const ModalContent = styled.div `
     background-color: #fff;    
     padding: 25px;
     width: 500px;
-    height: 250px;     
+    height: auto;     
     border-radius: 20px;
+    text-align: center;
 `
 
 export const ModalHeader = styled.h2 `
     text-align: center;
     font-family: 'Roboto', sans-serif;   
     color: #1C1CDE;    
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 0;
+
+    div:last-child {
+        margin-left: auto;
+    }
+`
+
+export const ModalBody = styled.div `
+    h2 {
+        font-family: 'Roboto', sans-serif;
+        color: #535479;
+    }
+
+    p {
+        font-family: 'Roboto', sans-serif;
+        color: #000;
+    }
+
 `
