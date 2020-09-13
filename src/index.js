@@ -9,6 +9,7 @@ import Index from './pages/index/index';
 import User from './pages/user/user';
 import Edit from './pages/edit/edit';
 import Post from './pages/post/post';
+import DetailPost from './pages/detailPost/detailPost';
 
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
@@ -21,6 +22,7 @@ ReactDOM.render(
       <Route path="/usuarios" component={User} />
       <Route path="/editar/:id"  component={Edit} />
       <Route path="/post"  component={Post} />
+      <Route path="/detalhe-post/:id"  component={DetailPost} />
     </Switch>
   </BrowserRouter>, 
   document.getElementById('root')

@@ -12,7 +12,7 @@ import iconPaper from '../../assets/icon/icon-paper.svg';
 import iconPin from '../../assets/icon/icon-pin.svg';
 
 //API global url
-import instance from '../../services/apiUser';
+import instance from '../../services/api';
 
 export default class App extends React.Component {
   state = {

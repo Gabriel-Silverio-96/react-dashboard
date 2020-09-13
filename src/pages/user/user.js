@@ -6,7 +6,8 @@ import { Main, Title, Table } from '../../styled/main';
 import { ButtonEdit } from './styled';
 
 //API global url
-import instance from '../../services/apiUser';
+import instance from '../../services/api';
+
 export default class userList extends React.Component {
     state = {
         data: []

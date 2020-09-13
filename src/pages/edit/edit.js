@@ -8,7 +8,7 @@ import { FormCol, InputArea } from './styled';
 import Modal from '../../components/modal/modal';
 
 //API global url
-import instance from '../../services/apiUser';
+import instance from '../../services/api';
 
 export default class edit extends React.Component {
     state = {
