@@ -10,6 +10,7 @@ import User from './pages/user/user';
 import Edit from './pages/edit/edit';
 import Post from './pages/post/post';
 import DetailPost from './pages/detailPost/detailPost';
+import Contact from './pages/contact/contact';
 
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
@@ -23,6 +24,7 @@ ReactDOM.render(
       <Route path="/editar/:id"  component={Edit} />
       <Route path="/post"  component={Post} />
       <Route path="/detalhe-post/:id"  component={DetailPost} />
+      <Route path="/contato"  component={Contact} />
     </Switch>
   </BrowserRouter>, 
   document.getElementById('root')

@@ -16,6 +16,20 @@ export const TitleSpan = styled.h1`
     }
 `
 
+export const TitleCounter = styled.h1 `
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin-bottom: 25px;
+
+    span {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 200;
+        color: #1C1CDE;
+        font-size: 15px;
+    }
+
+`
+
 //Aside
 export const MenuLateral = styled.aside`
     width: 180px;
@@ -47,6 +61,7 @@ export const Box = styled.div`
     width: ${props => props.boxWidth + 'px'};
     text-align: ${props => props.textAlign};
     transition: 0.5s;
+    height: ${props => props.boxHeight + 'px'};
     
     :hover {        
         border-color: #1C1CDE; 

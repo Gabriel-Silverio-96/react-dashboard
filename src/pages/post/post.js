@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 //Styled
-import { Main, Title, Box } from '../../styled/main';
+import { Main, TitleCounter, Box } from '../../styled/main';
 import { BoxPostArea, PostId } from './styled';
 
 //API global url
@@ -21,12 +21,11 @@ export default class post extends React.Component {
     }
 
     render() {
-        //Valor state
         const posts = this.state.data;
 
         return (
             <Main>
-                <Title>Total posts</Title>
+                <TitleCounter>Total posts <span>1 a {posts.length}</span></TitleCounter>
                 <BoxPostArea marginBottom={"25"}>
                     {posts.map(value =>
                         <Link to={"/detalhe-post/" + value.id}>
@@ -35,9 +34,11 @@ export default class post extends React.Component {
                                 <PostId>Post id
                                 <span>{value.id}</span>
                                 </PostId>
-                                <h3>{value.title.length > 14 ?
+                                <h3>
+                                    {value.title.length > 14 ?
                                     value.title.substring(0, 15) + "..." :
-                                    value.title}</h3>
+                                    value.title}
+                                </h3>
                             </Box>
                         </Link>
                     )}
