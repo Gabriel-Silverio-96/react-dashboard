@@ -17,6 +17,10 @@ img {
     height: auto;
 }
 
-form{
+form, label, li{
     font-family: 'Roboto', sans-serif;   
+}
+
+ul {
+    list-style: none;
 }

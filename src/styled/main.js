@@ -37,14 +37,42 @@ export const MenuLateral = styled.aside`
     position: fixed;
     z-index: 10;
     top: 24px;
+
+    @media (max-width: 1240px) {
+        display: none;
+    }
 `
 
 export const List = styled.ul`
     list-style: none;    
     margin-top: 25px;
+    
+    a {
+        display: flex;
+        align-items: center;
+        margin-bottom: 25px;
+
+        :hover > li {
+            color: #1C1CDE;
+
+            ::after {
+                content: "|";
+                position: absolute;
+                left: 5px;
+                width: 50px:
+                height: 50px;
+                background-color: #1C1CDE;
+            }
+        }
+
+        img {
+            margin-right: 20px;
+            width: 22px;
+        }
+    }
+
 
     li{
-        margin-bottom: 25px;
         font-family: 'Roboto', sans-serif;
         font-weight: 400;
         color: #807F7F;
@@ -101,6 +129,30 @@ export const BoxArea = styled.div`
     display: flex; 
     justify-content: space-between;
     margin-bottom: ${props => props.marginBottom + 'px'};
+
+    @media (max-width: 1329px) {
+        a div {
+            width: auto;
+        }
+    }
+
+    @media (max-width: 720px) {     
+        margin-bottom: 0px;     
+    }
+
+    @media (max-width: 720px) {
+        flex-direction: column;
+
+        div {
+            width: auto;
+            margin-right: 0;
+            margin-bottom: 50px;
+        }
+    }
+
+    .box-api {
+        width: 100%;
+    }
 `
 
 export const ButtonPrime = styled.button`
@@ -130,6 +182,10 @@ export const Main = styled.main`
     width: 80%;
     margin-left: auto;
     padding: 0 25px;
+
+    @media (max-width: 1240px) {
+        width: 100%;
+    }
 `
 
 //Table

@@ -64,8 +64,8 @@ export default class App extends React.Component {
         </BoxArea>
 
         <BoxArea>
-          <a href="https://jsonplaceholder.typicode.com/" target="_blank">
-            <Box boxWidth={"530"} marginRight={"40"} boxHeight={"146"}>
+          <a href="https://jsonplaceholder.typicode.com/" target="_blank" className="box-api">
+            <Box marginRight={"40"} boxHeight={"146"}>
               <h2>API</h2>
               <p>Conheça mais sobre a API utilizada no projeto</p>
             </Box>
@@ -75,7 +75,7 @@ export default class App extends React.Component {
             <Box boxWidth={"166"} textAlign={"center"} marginRight={"40"} marginBottomImg={"0"} widthImg={"70"}>
               <img src={iconUsers} alt="" />
               <h3>Usuários</h3>
-              <p>Listagem geral de usuários</p>
+              <p>Listagem geral</p>
             </Box>
           </Link>
 
@@ -83,7 +83,7 @@ export default class App extends React.Component {
             <Box boxWidth={"166"} textAlign={"center"} marginBottomImg={"20"} widthImg={"50"}>
               <img src={iconPin} alt="" />
               <h3>Posts</h3>
-              <p>Tabela de posts cadastrados</p>
+              <p>Total cadastrados</p>
             </Box>
           </Link>
         </BoxArea>
