@@ -32,14 +32,14 @@ export default class edit extends React.Component {
     }
 
     render() {
-        const userData = this.state.data;     
-        console.log(Object.keys(userData))           
+        //Objeto com informações do usuário selecionado
+        const userData = this.state.data;                      
         
         return (
             <Main>
                 <Modal/> 
                 <Title>Editar informações</Title>
-                <form>
+                <form method="POST">
                     <FormCol>
                         <InputArea width={"50"} widthDiv={"auto"}>
                             <label>ID</label>

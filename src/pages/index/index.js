@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import { Main } from '../../styled/main';
 import { Title, Box, BoxArea } from '../../styled/main';
 
-//Icon
+//Assets
 import iconUser from '../../assets/icon/icon-user.svg';
 import iconUsers from '../../assets/icon/icon-users.svg';
 import iconPaper from '../../assets/icon/icon-paper.svg';
@@ -64,15 +64,15 @@ export default class App extends React.Component {
         </BoxArea>
 
         <BoxArea>
-          <a href="https://jsonplaceholder.typicode.com/" target="_blank" className="box-api">
-            <Box marginRight={"40"} boxHeight={"146"}>
+          <a href="https://jsonplaceholder.typicode.com/" target="_blank" className="box-api" rel="noopener noreferrer">
+            <Box marginRight={"40"} boxHeight={"150"}>
               <h2>API</h2>
               <p>Conheça mais sobre a API utilizada no projeto</p>
             </Box>
           </a>
 
           <Link to="/usuarios">
-            <Box boxWidth={"166"} textAlign={"center"} marginRight={"40"} marginBottomImg={"0"} widthImg={"70"}>
+            <Box boxWidth={"166"} textAlign={"center"} marginRight={"40"} marginBottomImg={"0"} widthImg={"70"} boxHeight={"150"}>
               <img src={iconUsers} alt="" />
               <h3>Usuários</h3>
               <p>Listagem geral</p>
@@ -80,7 +80,7 @@ export default class App extends React.Component {
           </Link>
 
           <Link to="/post">
-            <Box boxWidth={"166"} textAlign={"center"} marginBottomImg={"20"} widthImg={"50"}>
+            <Box boxWidth={"166"} textAlign={"center"} marginBottomImg={"20"} widthImg={"50"} boxHeight={"150"}>
               <img src={iconPin} alt="" />
               <h3>Posts</h3>
               <p>Total cadastrados</p>

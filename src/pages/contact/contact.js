@@ -20,7 +20,7 @@ export default class Contact extends React.Component {
     }
 
     render() {
-        //Objeto com dados informações do usuário
+        //Objeto com informações do usuário
         const dataUser = this.state.data;
 
         return (

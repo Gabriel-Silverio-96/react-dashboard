@@ -33,7 +33,9 @@ function aside() {
                     <li>Posts</li>    
                </a>
             </List>
+            {/* Banner Lateral */}
             <AsideBanner/>
+
             <List>
                 <Link href="/">
                     <img src={iconConfig} alt="Ícone configurações"/>

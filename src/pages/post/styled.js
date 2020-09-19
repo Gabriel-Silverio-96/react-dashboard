@@ -3,9 +3,20 @@ import styled from 'styled-components';
 export const BoxPostArea = styled.div `
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 0;
     margin: 0;      
+
+    @media (max-width: 663px) {
+        a {
+            width: 100%;
+
+            div {
+                width: auto;
+                margin-right: 0;
+            }
+        }
+    }    
 `
 
 export const PostId = styled.div `

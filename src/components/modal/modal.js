@@ -1,11 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+
 //Style
 import { ModalMain, ModalContent, ModalHeader, ModalBody } from './styled';
 import { BtnClose, ButtonPrime } from '../../styled/main';
+
+//Assets
 import iconCorrect from '../../assets/icon/icon-correct.svg';
 
-function modalMain() {    
+function modalMain() {  
+
     //Close Modal
     function handleClick() {
         const modalMain = document.getElementById('modalMain');

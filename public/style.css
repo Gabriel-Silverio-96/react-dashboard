@@ -24,3 +24,7 @@ form, label, li{
 ul {
     list-style: none;
 }
+
+.show {
+    display: block !important;
+}

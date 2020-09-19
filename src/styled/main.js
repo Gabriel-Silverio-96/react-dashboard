@@ -1,5 +1,17 @@
 import styled from 'styled-components';
 
+//Main page
+export const Main = styled.main`    
+    width: 80%;
+    margin-left: auto;
+    padding: 0 25px;
+
+    @media (max-width: 1240px) {
+        width: 100%;
+    }
+`
+
+//Títulos principais
 export const Title = styled.h1`    
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
@@ -40,9 +52,16 @@ export const MenuLateral = styled.aside`
 
     @media (max-width: 1240px) {
         display: none;
+        position: absolute;
+        background-color: white;
+        height: 100%;
+        top: 88px;
+        padding-top: 25px;
+        box-shadow: -10px -3px 37px -4px rgba(0,0,0,0.2);   
     }
 `
 
+//Listas
 export const List = styled.ul`
     list-style: none;    
     margin-top: 25px;
@@ -72,13 +91,14 @@ export const List = styled.ul`
     }
 
 
-    li{
+    li {
         font-family: 'Roboto', sans-serif;
         font-weight: 400;
         color: #807F7F;
     }
 `
 
+//Padrão box
 export const Box = styled.div`
     padding: 25px;
     border: 1px solid #000;    
@@ -155,6 +175,7 @@ export const BoxArea = styled.div`
     }
 `
 
+//Botões
 export const ButtonPrime = styled.button`
     color: ${props => props.colorButton};
     background-color: ${props => props.backgroundButton};
@@ -177,18 +198,29 @@ export const ButtonSave = styled(ButtonPrime)`
     cursor: pointer;
 `
 
-//Main page
-export const Main = styled.main`    
-    width: 80%;
-    margin-left: auto;
-    padding: 0 25px;
+export const BtnClose = styled.button`
+    font-size: 15px;   
+    font-weight: bold;
+    border: 2px solid #1C1CDE;
+    border-radius: 50%;
+    padding: 5px 9px;
+    color: #1C1CDE;
+    background-color: #fff;   
+    transition: 0.5s;
+    cursor: pointer;
 
-    @media (max-width: 1240px) {
-        width: 100%;
+    :hover {
+        background-color: #1C1CDE;
+        color: #fff;
+        transition: 0.5s;        
+    } 
+
+    :focus {
+        outline: none;
     }
 `
 
-//Table
+//Tabelas
 export const Table = styled.table`
     overflow-x: auto;
     display: contents;
@@ -221,27 +253,5 @@ export const Table = styled.table`
             border-top-right-radius: 10px;
             border-bottom-right-radius: 10px;        
         }
-    }
-`
-
-export const BtnClose = styled.button`
-    font-size: 15px;   
-    font-weight: bold;
-    border: 2px solid #1C1CDE;
-    border-radius: 50%;
-    padding: 5px 9px;
-    color: #1C1CDE;
-    background-color: #fff;   
-    transition: 0.5s;
-    cursor: pointer;
-
-    :hover {
-        background-color: #1C1CDE;
-        color: #fff;
-        transition: 0.5s;        
-    } 
-
-    :focus {
-        outline: none;
     }
 `

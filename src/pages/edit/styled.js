@@ -1,7 +1,17 @@
 import styled from 'styled-components';
 
-export const FormCol = styled.form`
+export const FormCol = styled.div`
     display: flex;
+
+    @media (max-width: 1023px) {
+        display: block;
+
+        div {
+            input {
+                margin-right: 0 !important;
+            }
+        }
+    }
 `
 
 export const InputArea = styled.div`

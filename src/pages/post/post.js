@@ -21,6 +21,7 @@ export default class post extends React.Component {
     }
 
     render() {
+        //Objeto com informações dos posts cadastrados
         const posts = this.state.data;
 
         return (

@@ -1,4 +1,6 @@
 import React from 'react';
+
+//Styled
 import { Box, TitleSpan, ButtonPrime} from '../../styled/main';
 
 function asideBanner() {

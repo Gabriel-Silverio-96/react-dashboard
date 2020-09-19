@@ -58,7 +58,6 @@ export default class userList extends React.Component {
                         </tr>
                     )}
                 </Table>
-
             </Main>
         )
     }

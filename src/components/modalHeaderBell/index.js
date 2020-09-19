@@ -3,7 +3,7 @@ import React from 'react';
 //Styled
 import { ModalBell, ListAction } from './styled';
 
-//Icons
+//Assets
 import iconPostWhite from '../../assets/icon/icon-star.svg';
 
 function modalBell() {
@@ -11,21 +11,21 @@ function modalBell() {
         <ModalBell id="modalBell">
             <ul>
                 <ListAction>
-                    <img src={iconPostWhite} />
+                    <img src={iconPostWhite} alt="Ícone Estrela"/>
                     <div>
                         <label>Novo post</label>
                         <li>Marcio Correia</li>
                     </div>
                 </ListAction>
                 <ListAction>
-                    <img src={iconPostWhite} />
+                    <img src={iconPostWhite} alt="Ícone Estrela"/>
                     <div>
                         <label>Novo post</label>
                         <li>Kelly Moreira</li>
                     </div>
                 </ListAction>
                 <ListAction>
-                    <img src={iconPostWhite} />
+                    <img src={iconPostWhite} alt="Ícone Estrela"/>
                     <div>
                         <label>Novo post</label>
                         <li>Lauanny Kraiser</li>
