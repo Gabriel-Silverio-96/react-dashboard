@@ -12,7 +12,7 @@
 
 No projeto desk, é consumido a API do JSONPlaceholder, para mais detalhes, [clique aqui](https://jsonplaceholder.typicode.com/).
 
-Para a estilização, foi utilizado **Styled Components**, para mais informações, seque [link da documentação](https://styled-components.com/docs).
+Para a estilização, foi utilizado **Styled Components**, para mais informações, segue [link da documentação](https://styled-components.com/docs).
 
 ---
 
